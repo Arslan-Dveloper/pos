@@ -31,8 +31,8 @@ class ScreenNewOrder extends StatelessWidget {
                       context: context,
                       builder: (context) {
                         return AlertDialog(
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(0)),
+                          // shape: RoundedRectangleBorder(
+                          //     borderRadius: BorderRadius.circular(0)),
                           content: SingleChildScrollView(
                             physics: BouncingScrollPhysics(),
                             child: Column(
@@ -46,7 +46,9 @@ class ScreenNewOrder extends StatelessWidget {
                                     color: AppColor.redColor,
                                   ),
                                 ).onlyPadding(left: 130),
-                                SizedBox(height: 30,),
+                                SizedBox(
+                                  height: 30,
+                                ),
                                 Stack(
                                   children: [
                                     Container(
@@ -171,7 +173,7 @@ class ScreenNewOrder extends StatelessWidget {
                                           ],
                                         )
                                       ],
-                                    ).onlyPadding(left: 150)
+                                    ).onlyPadding(left: 140)
                                   ],
                                 ),
                                 SizedBox(
@@ -301,7 +303,7 @@ class ScreenNewOrder extends StatelessWidget {
                                           ],
                                         )
                                       ],
-                                    ).onlyPadding(left: 150)
+                                    ).onlyPadding(left: 140)
                                   ],
                                 ),
                                 SizedBox(
@@ -395,7 +397,7 @@ class ScreenNewOrder extends StatelessWidget {
                                           ],
                                         )
                                       ],
-                                    ).onlyPadding(left: 150)
+                                    ).onlyPadding(left: 140)
                                   ],
                                 ),
                                 SizedBox(
@@ -525,7 +527,7 @@ class ScreenNewOrder extends StatelessWidget {
                                           ],
                                         )
                                       ],
-                                    ).onlyPadding(left: 150)
+                                    ).onlyPadding(left: 140)
                                   ],
                                 ),
                                 SizedBox(
@@ -655,9 +657,17 @@ class ScreenNewOrder extends StatelessWidget {
                                           ],
                                         )
                                       ],
-                                    ).onlyPadding(left: 150)
+                                    ).onlyPadding(
+                                      left: 140,
+                                    )
                                   ],
-                                ),
+                                ).onlyPadding(right: 20),
+                                Container(
+                                  width: 50,
+                                  height: 50,
+                                  child:
+                                      Image.asset("assets/images/Button.png"),
+                                ).onlyPadding(left: 200,top: 30)
                               ],
                             ),
                           ),
@@ -806,8 +816,12 @@ class ScreenNewOrder extends StatelessWidget {
                                   ),
                                 ],
                               ),
+                              SizedBox(
+                                height: 10,
+                              ),
                               Divider(
-                                endIndent: 250,height: 0,
+                                endIndent: 250,
+                                height: 0,
                               ),
                               Column(
                                 children: [
@@ -961,8 +975,12 @@ class ScreenNewOrder extends StatelessWidget {
                                   ),
                                 ],
                               ),
+                              SizedBox(
+                                height: 10,
+                              ),
                               Divider(
-                                endIndent: 145,height: 0,
+                                endIndent: 145,
+                                height: 0,
                               ),
                               Column(
                                 children: [

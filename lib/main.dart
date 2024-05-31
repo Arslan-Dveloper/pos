@@ -6,7 +6,6 @@ import 'package:pos/pos_waiter/for_tablet/pizza_for_tablet.dart';
 import 'package:pos/responsive_layout.dart';
 import 'package:pos/tablet/screen_new_order.dart';
 import 'package:sizer/sizer.dart';
-
 import 'fixed_terminal/alert_screen.dart';
 import 'fixed_terminal/order_history_screen.dart';
 import 'fixed_terminal/screen_fixed_terminal.dart';
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
           // home: PracticeTransform(),
           // home: ScreenFixedTerminal(),
 
-          // screenOrder
+          // screenOrder\
           //home: OrderHistoryScreen(),
           //screen Alert
            //home: AlertScreen(),

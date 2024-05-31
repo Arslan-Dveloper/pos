@@ -78,6 +78,7 @@ class ScreenNewOrderChild extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 10,),
           Divider(
             endIndent: 360,height: 0,
           ),
