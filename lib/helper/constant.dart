@@ -16,6 +16,16 @@ class AppColor {
   static const Color inProgressColor = Color(0xffE9F1F2);
   static const Color inProgressColorText = Color(0xff70B6C1);
   static const Color textColor = Color(0xff3C4E57);
+
+  static const Color cashierGreyColor = Color(0xff898989);
+  static const Color cashierBorderColor = Color(0xffDCDCDC);
+  static const Color cashierSideBarColor = Color(0xff898989);
+  static const Color cashierBackGroundColor = Color(0xffF9F9F9);
+  static const Color cashierContainerColor = Color(0xffE9E6EF);
+  static const Color cashierTextColor = Color(0xff775DA6);
+  static const Color cashierPendingContainerColor = Color(0xffE9F1F2);
+  static const Color cashierPendingTextColor = Color(0xff70B6C1);
+  static const Color containerTextColor = Color(0xff3C4E57);
 }
 
 TextStyle dmSansFont = GoogleFonts.dmSans();

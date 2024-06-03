@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:pos/cashier/screen_tabbar.dart';
 import 'package:pos/pos_waiter/for_desktop/pizza_for_desktop.dart';
 import 'package:pos/pos_waiter/for_mobile/pizza.dart';
 import 'package:pos/pos_waiter/for_tablet/pizza_for_tablet.dart';
 import 'package:pos/responsive_layout.dart';
 import 'package:pos/tablet/screen_new_order.dart';
 import 'package:sizer/sizer.dart';
+import 'cashier/screen_home.dart';
 import 'fixed_terminal/alert_screen.dart';
 import 'fixed_terminal/order_history_screen.dart';
 import 'fixed_terminal/screen_fixed_terminal.dart';
@@ -36,9 +38,12 @@ class MyApp extends StatelessWidget {
           // screenOrder\
           //home: OrderHistoryScreen(),
           //screen Alert
-           //home: AlertScreen(),
+          //home: AlertScreen(),
           // screen New Order
-          home: ScreenNewOrder(),
+          // home: ScreenNewOrder(),
+
+          // cashier mode
+          home: ScreenTabBar(),
         );
       },
     );

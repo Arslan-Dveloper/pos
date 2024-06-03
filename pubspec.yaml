@@ -82,6 +82,13 @@ flutter:
     - family: heebo
       fonts:
         - asset: assets/fonts/Heebo-Light.ttf
+    - family: sego
+      fonts:
+        - asset: assets/fonts/Segoe UI.ttf
+#          fonts:
+#            - family: sego
+#              fonts:
+#                - asset: assets/fonts/Segoe UI.ttf
 
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
